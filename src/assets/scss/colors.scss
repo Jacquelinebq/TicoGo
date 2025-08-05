@@ -1,0 +1,11 @@
+:root {
+    --color-white        : #ffffff;
+    --color-black        : #000;
+    --color-green-0     : #0f8d9b;
+   
+}
+
+// Backdrop pseudo-element doesn´t inherit css variables
+::backdrop {
+    --color-backdrop: rgba(0, 0, 0, .7);
+}

@@ -1,0 +1,32 @@
+.main-header {
+  height: 80px;
+  background-color: var(--color-white);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 40px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05);
+}
+
+.logo img {
+  height: 100px;
+}
+
+.nav-menu ul {
+  list-style: none;
+  display: flex;
+  gap: 30px;
+  margin: 0;
+  padding: 0;
+}
+
+.nav-menu a {
+  text-decoration: none;
+  color: black;
+  font-size: 14px;
+  transition: all 0.3s ease;
+}
+
+.nav-menu a:hover {
+  color: var(--color-green-0);
+}
