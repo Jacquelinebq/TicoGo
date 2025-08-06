@@ -1,12 +1,18 @@
 .main-header {
   height: 80px;
-  background-color: var(--color-white);
-  display: flex;
+  position: fixed;
+  top: 40px;
+  left: 0;
+  right: 0;
   align-items: center;
+  background-color: var(--color-white);
+  z-index: 999;
+  display: flex;
   justify-content: space-between;
   padding: 0 40px;
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05);
 }
+
 
 .logo img {
   height: 100px;

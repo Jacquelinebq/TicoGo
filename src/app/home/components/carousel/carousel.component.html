@@ -1,0 +1,21 @@
+<h1 class="title-carousel">Vive la Experiencia TicoGo</h1>
+<div class="carousel-wrapper">
+  <div class="carousel-track" [style.transform]="'translateX(-' + currentOffset + '%)'">
+    <div
+      class="carousel-item"
+      *ngFor="let item of items"
+      (click)="navigateTo(item.route)"
+    >
+      <img [src]="item.image" [alt]="item.title" />
+      <div class="carousel-content">
+        <h3>{{ item.title }}</h3>
+        <p>{{ item.description }}</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="carousel-controls">
+    <button (click)="prev()">‹</button>
+    <button (click)="next()">›</button>
+  </div>
+</div>

@@ -1,0 +1,40 @@
+
+.services-section {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1.5rem;
+  padding: 50px 20px;
+  background-color: var(--color-white);
+}
+
+.service-card {
+  background: var(--color-white);
+  border-radius: 10px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  width: 150px;
+  text-align: center;
+  padding: 1.5rem;
+  transition: transform 0.3s ease;
+}
+
+.service-card:hover {
+  transform: translateY(-5px);
+}
+
+.service-card img {
+  width: 48px;
+  height: 48px;
+  margin-bottom: 1rem;
+}
+
+.service-card h3 {
+  color: var(--color-green-0);
+  margin-bottom: 0.5rem;
+  font-size: 16px;
+}
+
+.service-card p {
+  color: var(--color-black);
+  font-size: 13px;
+}
